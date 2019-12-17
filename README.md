@@ -12,7 +12,7 @@ If `n` is an `UInt`, then `Permutation(n)` is a (lazy) sequence representing a r
 
 If `c` is a `Collection`, then `Permutator(c)` is a sequence representing a random permutation of `c`'s elements.
 
-### Iterators
+### `PermutationIterator` and `PermutatorIterator` 
 
 `PermutationIterator` and `PermutatorIterator` are the iterators created by the two `Sequence` types above, respectively. You can also manually initialize them, and use their `next()` method to generate new values.
 
